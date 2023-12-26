@@ -15,7 +15,7 @@ export default async function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>AI DEVS TASKER: C01L04</h1>
+      <h1>AI DEVS TASKER: C01L04 moderation</h1>
     </main>
   );
 }
