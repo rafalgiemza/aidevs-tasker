@@ -44,3 +44,17 @@ export async function postAnswer(
   const data = await response.json();
   return data;
 }
+
+export async function postFormDataToTaskEndpoint(
+  token: string,
+  formData: FormData
+) {
+  const response = await fetch(`${API_HOST}/task/${token}`, {
+    method: "POST",
+    body: formData,
+    cache: "no-store",
+  });
+
+  const data = await response.json();
+  return data;
+}
