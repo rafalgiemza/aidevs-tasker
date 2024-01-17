@@ -7,6 +7,9 @@ export default async function Home() {
       <Link href={"/C01L04-blogger"}>C01L04-blogger</Link>
       <Link href={"/C01L04-moderation"}>C01L04-moderation</Link>
       <Link href={"/C01L05-prompt-engineering"}>C01L05-prompt-engineering</Link>
+      <Link href={"/C02L02-eksplorowanie-i-omijanie-ograniczen"}>
+        C02L02-eksplorowanie-i-omijanie-ograniczen
+      </Link>
     </main>
   );
 }
