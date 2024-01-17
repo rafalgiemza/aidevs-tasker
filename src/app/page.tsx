@@ -10,6 +10,9 @@ export default async function Home() {
       <Link href={"/C02L02-eksplorowanie-i-omijanie-ograniczen"}>
         C02L02-eksplorowanie-i-omijanie-ograniczen
       </Link>
+      <Link href={"/C02L03-techniki-pracy-z-gpt-3-5-gpt-4"}>
+        C02L03-techniki-pracy-z-gpt-3-5-gpt-4
+      </Link>
     </main>
   );
 }

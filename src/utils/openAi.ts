@@ -33,4 +33,12 @@ async function moderation(input: string[]) {
   return moderationResults as OpenAI.Moderations.ModerationCreateResponse;
 }
 
-export { chatCompletion, moderation };
+async function embeddings(input: string) {
+  const embeddingsResults = await openai.embeddings.create({
+    input,
+    model: "text-embedding-ada-002",
+  });
+  return embeddingsResults as OpenAI.CreateEmbeddingResponse;
+}
+
+export { chatCompletion, moderation, embeddings };
