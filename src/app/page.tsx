@@ -19,6 +19,7 @@ export default async function Home() {
       <Link href={"/C02L05-llm-poslugujacy-sie-narzedziami"}>
         C02L05-llm-poslugujacy-sie-narzedziami
       </Link>
+      <Link href={"/format"}>format</Link>
     </main>
   );
 }
