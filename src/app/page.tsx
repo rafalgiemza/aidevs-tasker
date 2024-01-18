@@ -16,6 +16,9 @@ export default async function Home() {
       <Link href={"/C02L04-praca-z-wlasnymi-danymi"}>
         C02L04-praca-z-wlasnymi-danymi
       </Link>
+      <Link href={"/C02L05-llm-poslugujacy-sie-narzedziami"}>
+        C02L05-llm-poslugujacy-sie-narzedziami
+      </Link>
     </main>
   );
 }
