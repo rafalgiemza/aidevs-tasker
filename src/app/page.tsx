@@ -20,6 +20,8 @@ export default async function Home() {
         C02L05-llm-poslugujacy-sie-narzedziami
       </Link>
       <Link href={"/format"}>format</Link>
+      <Link href={"/tailwind"}>tailwind</Link>
+      <Link href={"/planets"}>planets</Link>
     </main>
   );
 }
