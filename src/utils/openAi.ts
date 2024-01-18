@@ -41,4 +41,13 @@ async function embeddings(input: string) {
   return embeddingsResults as OpenAI.CreateEmbeddingResponse;
 }
 
-export { chatCompletion, moderation, embeddings };
+async function transcription(file: File) {
+  const transcriptionResults = await openai.audio.transcriptions.create({
+    file,
+    model: "whisper-1",
+    language: "PL",
+  });
+  return transcriptionResults as OpenAI.Audio.Transcription;
+}
+
+export { chatCompletion, moderation, embeddings, transcription };

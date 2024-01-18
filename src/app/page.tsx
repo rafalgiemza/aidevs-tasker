@@ -13,6 +13,9 @@ export default async function Home() {
       <Link href={"/C02L03-techniki-pracy-z-gpt-3-5-gpt-4"}>
         C02L03-techniki-pracy-z-gpt-3-5-gpt-4
       </Link>
+      <Link href={"/C02L04-praca-z-wlasnymi-danymi"}>
+        C02L04-praca-z-wlasnymi-danymi
+      </Link>
     </main>
   );
 }
