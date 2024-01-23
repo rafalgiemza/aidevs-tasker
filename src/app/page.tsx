@@ -22,8 +22,9 @@ export default async function Home() {
       <Link href={"/C03L01-pair-programming-z-gpt-4"}>
         C03L01-pair-programming-z-gpt-4
       </Link>
-
-      <Link href={"/format"}>format</Link>
+      <Link href={"/C03L02-llm-w-kodzie-aplikacji"}>
+        C03L02-llm-w-kodzie-aplikacji
+      </Link>
       <Link href={"/planets"}>planets</Link>
     </main>
   );
