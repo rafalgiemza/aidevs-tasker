@@ -25,6 +25,11 @@ export default async function Home() {
       <Link href={"/C03L02-llm-w-kodzie-aplikacji"}>
         C03L02-llm-w-kodzie-aplikacji
       </Link>
+      <Link
+        href={"/C03L03-wyszukiwanie-i-bazy-przetwarzanie-dlugich-dokumentow"}
+      >
+        C03L03-wyszukiwanie-i-bazy-przetwarzanie-dlugich-dokumentow
+      </Link>
       <Link href={"/planets"}>planets</Link>
     </main>
   );
