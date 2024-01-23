@@ -19,8 +19,11 @@ export default async function Home() {
       <Link href={"/C02L05-llm-poslugujacy-sie-narzedziami"}>
         C02L05-llm-poslugujacy-sie-narzedziami
       </Link>
+      <Link href={"/C03L01-pair-programming-z-gpt-4"}>
+        C03L01-pair-programming-z-gpt-4
+      </Link>
+
       <Link href={"/format"}>format</Link>
-      <Link href={"/tailwind"}>tailwind</Link>
       <Link href={"/planets"}>planets</Link>
     </main>
   );
