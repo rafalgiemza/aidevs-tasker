@@ -30,6 +30,9 @@ export default async function Home() {
       >
         C03L03-wyszukiwanie-i-bazy-przetwarzanie-dlugich-dokumentow
       </Link>
+      <Link href={"/C03L04-realizowanie-zlozonych-zadan-i-bazy-wektorowe"}>
+        C03L04-realizowanie-zlozonych-zadan-i-bazy-wektorowe
+      </Link>
       <Link href={"/planets"}>planets</Link>
     </main>
   );
