@@ -36,6 +36,9 @@ export default async function Home() {
       <Link href={"/C03L05-produkcyjne-zastosowanie-modeli-openai"}>
         C03L05-produkcyjne-zastosowanie-modeli-openai
       </Link>
+      <Link href={"/C04L01-narzedzia-do-automatyzacji"}>
+        C04L01-narzedzia-do-automatyzacji
+      </Link>
     </main>
   );
 }
