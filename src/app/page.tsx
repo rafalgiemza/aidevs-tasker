@@ -33,7 +33,9 @@ export default async function Home() {
       <Link href={"/C03L04-realizowanie-zlozonych-zadan-i-bazy-wektorowe"}>
         C03L04-realizowanie-zlozonych-zadan-i-bazy-wektorowe
       </Link>
-      <Link href={"/planets"}>planets</Link>
+      <Link href={"/C03L05-produkcyjne-zastosowanie-modeli-openai"}>
+        C03L05-produkcyjne-zastosowanie-modeli-openai
+      </Link>
     </main>
   );
 }
