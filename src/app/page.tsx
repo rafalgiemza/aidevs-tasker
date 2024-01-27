@@ -18,6 +18,7 @@ export default async function Home() {
     "C04L01-narzedzia-do-automatyzacji",
     "C04L02-automatyzacje-z-ai",
     "C04L03-autonomiczne-scenariusze-i-skrypty_WIP",
+    "C04L04-wlasne-api_WIP",
   ];
   return (
     <main className="flex min-h-screen flex-col items-center gap-5 p-12">
