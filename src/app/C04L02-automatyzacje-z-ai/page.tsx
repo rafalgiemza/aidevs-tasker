@@ -11,10 +11,13 @@ export default async function Home() {
   // console.log("🚀 ~ Home ~ question:", question);
 
   // const systemContent = `
-  //   na podstawie podanego pytania zwróć json
-  //   jeśli pytanie dotyczy kursu walut (np dolara) to zwróć {category: 'currency', value: 'USD'}
-  //   jeśli pytanie dotyczy populacji (np Polski) to zwróć {category: 'population', country: 'Poland'}
-  //   w pozostałych przypadkach odpowiedz na pytanie zwróć {category: 'general', answer: 'Twoja odpowiedź'}
+  //   Decide whether the task should be added to the ToDo list or to the calendar (if time is provided) and return the corresponding JSON, always use YYYY-MM-DD format for dates.
+
+  //   Today is 27-01-2024, Saturday
+
+  //   ### Examples:
+  //   'example for ToDo': 'Przypomnij mi, że mam kupić mleko = {"tool":"ToDo","desc":"Kup mleko" }',
+  //   'example for Calendar': 'Jutro mam spotkanie z Marianem = {"tool":"Calendar","desc":"Spotkanie z Marianem","date":"2024-01-28"}',
   // `;
 
   // const res3 = await chatCompletion({ systemContent, userContent: question });
@@ -22,27 +25,9 @@ export default async function Home() {
   //   .map((item) => item.message)
   //   .map((msg) => msg.content);
   // const res5 = res4.at(0);
-  // console.log("🚀 ~ Home ~ res5:", res5);
 
   // if (res5 !== undefined && res5 !== null) {
-  //   const parsed = await JSON.parse(res5);
-  //   console.log("🚀 ~ Home ~ parsed:", parsed);
-  //   const { category } = parsed;
-  //   console.log("🚀 ~ Home ~ category:", category);
-
-  //   let secondResponse = "";
-  //   if (category === "currency") {
-  //     secondResponse = await getCurrencyValue(parsed.value);
-  //   }
-  //   if (category === "population") {
-  //     secondResponse = await getPopulation(parsed.country);
-  //   }
-  //   if (category === "general") {
-  //     secondResponse = parsed.answer;
-  //   }
-
-  //   const answer = secondResponse;
-  //   console.log("🚀 ~ Home ~ secondResponse:", secondResponse);
+  //   const answer = JSON.parse(res5);
   //   console.log("🚀 ~ Home ~ answer:", answer);
 
   //   const res = await postAnswer(data?.token, answer ?? "");
