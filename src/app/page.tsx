@@ -17,12 +17,15 @@ export default async function Home() {
     "C03L05-produkcyjne-zastosowanie-modeli-openai",
     "C04L01-narzedzia-do-automatyzacji",
     "C04L02-automatyzacje-z-ai",
+    "C04L03-autonomiczne-scenariusze-i-skrypty_WIP",
   ];
   return (
     <main className="flex min-h-screen flex-col items-center gap-5 p-12">
-      {links.map((value) => 
-        <Link key={value} href={`/${value}`}>{value}</Link>
-      )}
+      {links.map((value) => (
+        <Link key={value} href={`/${value}`}>
+          {value}
+        </Link>
+      ))}
     </main>
   );
 }
