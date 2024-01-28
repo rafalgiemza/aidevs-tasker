@@ -17,7 +17,7 @@ export default async function Home() {
     "C03L05-produkcyjne-zastosowanie-modeli-openai",
     "C04L01-narzedzia-do-automatyzacji",
     "C04L02-automatyzacje-z-ai",
-    "C04L03-autonomiczne-scenariusze-i-skrypty_WIP",
+    "C04L03-autonomiczne-scenariusze-i-skrypty",
     "C04L04-wlasne-api_WIP",
   ];
   return (
